@@ -52,15 +52,6 @@ import BlurView from 'react-native-blur-overlay';
 </BlurView>;
 ```
 
-## Props
-
-Prop | Type | Default | Description
-backgroundColor | rgba(${number}, ${number}, ${number}, ${number}) | 'rgba(255, 255, 255, 0)' | Sets the background color of the blur layer (with alpha).
-borderRadius | number | undefined | Applies rounded corners to the blur view.
-children | ReactNode | undefined | Optional content to render above the blur effect.
-style | StyleProp<ViewStyle> | undefined | Style for the outer container view.
-contentContainerStyle | StyleProp<ViewStyle> | undefined | Style for the container that wraps the children.
-
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
