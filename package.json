@@ -46,14 +46,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/InfinityX-Solutions/react-native-blur-view.git.git"
+    "url": "git+https://github.com/InfinityX-Solutions/-lukastran-react-native-blur-view.git"
   },
   "author": "lukastran <tranduc.developper@gmail.com> (https://github.com/InfinityX-Solutions)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/InfinityX-Solutions/react-native-blur-view.git/issues"
+    "url": "https://github.com/InfinityX-Solutions/-lukastran-react-native-blur-view.git/issues"
   },
-  "homepage": "https://github.com/InfinityX-Solutions/react-native-blur-view.git#readme",
+  "homepage": "https://github.com/InfinityX-Solutions/-lukastran-react-native-blur-view.git#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
