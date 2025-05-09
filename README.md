@@ -8,17 +8,58 @@ A lightweight yet powerful React Native package for applying a native blur (fros
 npm install react-native-blur-view
 ```
 
-## Usage
+or
 
-
-```js
-import { multiply } from 'react-native-blur-view';
-
-// ...
-
-const result = await multiply(3, 7);
+```sh
+yarn add react-native-blur-view
 ```
 
+Make sure you also have react-native-webview installed in your project:
+
+```sh
+npm install react-native-webview
+```
+
+or
+
+```sh
+yarn add react-native-webview
+```
+
+## ✨ Features
+
+- No native code or platform-specific setup
+- Fully customizable background color (`rgba`)
+- Optional border radius for rounded blur overlays
+- Supports child content over the blurred background
+- Compatible with both Android and iOS
+
+## 🚀 Why use this?
+
+Native blur implementations often require linking native modules or configuring platform-specific code. This component offers a JS-only alternative using CSS `backdrop-filter` (when supported), wrapped inside a `WebView`, which works reliably across platforms.
+
+## 🧪 Example
+
+```tsx
+import BlurView from 'react-native-blur-overlay';
+
+<BlurView
+  backgroundColor="rgba(255, 255, 255, 0.5)"
+  borderRadius={16}
+  style={{ width: 200, height: 100 }}
+>
+  <Text>Your content here</Text>
+</BlurView>;
+```
+
+## Props
+
+Prop | Type | Default | Description
+backgroundColor | rgba(${number}, ${number}, ${number}, ${number}) | 'rgba(255, 255, 255, 0)' | Sets the background color of the blur layer (with alpha).
+borderRadius | number | undefined | Applies rounded corners to the blur view.
+children | ReactNode | undefined | Optional content to render above the blur effect.
+style | StyleProp<ViewStyle> | undefined | Style for the outer container view.
+contentContainerStyle | StyleProp<ViewStyle> | undefined | Style for the container that wraps the children.
 
 ## Contributing
 

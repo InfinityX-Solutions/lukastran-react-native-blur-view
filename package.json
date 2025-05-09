@@ -1,5 +1,5 @@
 {
-  "name": "react-native-blur-view",
+  "name": "@lukastran/react-native-blur-view",
   "version": "0.1.0",
   "description": "A lightweight yet powerful React Native package for applying a native blur (frosted glass) effect to any view on both iOS and Android.",
   "source": "./src/index.tsx",
@@ -148,5 +148,8 @@
     "languages": "js",
     "type": "library",
     "version": "0.49.4"
+  },
+  "dependencies": {
+    "react-native-webview": "^13.13.5"
   }
 }

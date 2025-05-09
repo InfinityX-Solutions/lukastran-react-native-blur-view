@@ -1,3 +1,2 @@
-export function multiply(a: number, b: number): number {
-  return a * b;
-}
+import BlurView from './components/BlurView';
+export { BlurView };
